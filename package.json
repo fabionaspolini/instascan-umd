@@ -1,10 +1,10 @@
 {
-  "name": "instascan-umd",
+  "name": "instascan-umd-new",
   "version": "1.0.1",
-  "description": "A UMD compatible port of Instascan",
+  "description": "A UMD compatible port of Instascan - Forked from instascan-umd",
   "main": "dist/instascan.js",
-  "repository": "git@github.com:rubenspgcavalcante/instascan-umd.git",
-  "author": "Rubens Pinheiro",
+  "repository": "https://github.com/fabionaspolini/instascan-umd",
+  "author": "Fábio Naspolini",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -19,6 +19,6 @@
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
-    "instascan": "1.0.0"
+    "instascan-new": "^1.0.0"
   }
 }
